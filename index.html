@@ -2,22 +2,28 @@
 <html> 
     <head>
         <title>Will You Be My Valentine?</title>
+        <link rel="stylesheet" href="assets/styles/styles.css">
     </head>
     <body>
         <section>
-            <img src="" alt="A heart with a panda hugging it">
-            <h1>you are the CSS to my HTML</h1>
-            <h2>LOVE, your secret admirer</h2>
-
+            <img src="assets/images/panda.heart.png" width="180px" alt="A heart with a panda hugging it">
+            <h1>you are the<br>
+                <em class="css">CSS</em><br>
+                to my<br>
+               <em class="html">HTML</em></h1>
+            <h2>Love, <br>
+                your secret admirer</h2>
+            <!-- A form for deciding if you want to be my v-->
             <form>
                 <fieldset>
                     <legend>Will You Be My Valentine?</legend>
                     <input name="valentine" id="yes" type="radio">
-                    <label for="yes">yes</label>
+                    <label for="yes">YES</label>
 
-                    <input id="no" type="radio">
-                    <label for="no">no</label>
+                    <input name="valentine" id="no" type="radio">
+                    <label for="no">NO</label>
                 </fieldset>
+                <button>ANSWER</button>
             </form>
         </section>
     </body>

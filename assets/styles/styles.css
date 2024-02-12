@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/falling.hearts.gif");
+    color:rgb(173, 61, 61);  
+    text-align: center;
+    /* comment! */
+}
+
+section{
+    background-color: rgba(255, 215, 242, 0.5);
+    margin: auto 13%;
+    padding: 30px;
+    border-color: rgb(173, 61, 61);
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 150%;
+}
+
+em {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: normal;
+    color: rgb(222, 46, 46)
+    /* this makes the text not italicized*/
+}
+
+h2{
+    font-size: 25px;
+}
+
+form {
+  background-color: rgba(255, 165, 225, 0.5); 
+  font-family: abril; 
+  font-size: 14px; 
+  line-height: 100%;
+}
